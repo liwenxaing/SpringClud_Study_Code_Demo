@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="consumer-feign" />
+        <module name="consumer80" />
+        <module name="eureka-server-7001" />
+        <module name="eureka-server-7002" />
+        <module name="eureka-server-7003" />
+        <module name="microconfig3324" />
+        <module name="microconfigclient3225" />
+        <module name="provider8001" />
+        <module name="provider8001-Hystrix" />
+        <module name="provider8002" />
+        <module name="provider8003" />
+        <module name="provider9001HystrixDashboard" />
+        <module name="zuulhttprequest9999" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-more" target="1.8" />
+      <module name="microclientconfig3325" target="1.8" />
+      <module name="microconfig6666" target="1.8" />
+      <module name="micromore" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

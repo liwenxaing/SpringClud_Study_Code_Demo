@@ -1,0 +1,18 @@
+server:
+  port: 9999
+eureka:
+  instance:
+    hostname: myzuul.com
+    instance-id: zuul
+  client:
+    service-url:
+      defaultZone: http://eureka01.com:7001/eureka,http://eureka02.com:7002/eureka,http://eureka03.com:7003/eureka
+spring:
+  application:
+    name: zuul-request-9999
+zuul:
+  routes:
+    mydept.serviceId: provider-8001
+    mydept.path: /mydept/**
+  ignored-services: provider-8001
+  prefix: /lwx

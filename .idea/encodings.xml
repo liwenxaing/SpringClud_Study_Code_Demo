@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-more" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microclientconfig3325" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microconfig3324" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microconfigclient3225" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider8001-Hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider9001HystrixDashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulhttprequest9999" charset="UTF-8" />
+  </component>
+</project>

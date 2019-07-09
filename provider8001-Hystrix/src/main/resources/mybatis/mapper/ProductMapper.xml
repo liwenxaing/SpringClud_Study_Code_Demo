@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.micro.dao.ProductDao">
+
+
+         <resultMap id="findAllTypes" type="com.micro.entity.Product">
+               <id property="id" column="id"/>
+             <result property="name" column="name"/>
+             <result property="parentId" column="parentId"/>
+             <collection property="products" select="findAllType"
+                column="id"
+                ofType="com.micro.entity.Product"
+             />
+         </resultMap>
+
+          <select id="findAllType" resultMap="findAllTypes">
+             SELECT * FROM product WHERE parentId = #{xxx}
+          </select>
+
+</mapper>

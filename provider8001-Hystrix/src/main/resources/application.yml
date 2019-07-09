@@ -1,0 +1,32 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: provider-8001
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/dept?characterEncoding=utf-8&useUnicode=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+mybatis:
+  type-aliases-package: com.micro.entity
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  config-location: classpath:mybatis/mybatis-cfg.xml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01.com:7001/eureka,http://eureka02.com:7002/eureka,http://eureka03.com:7003/eureka
+  instance:
+    instance-id: provider01-8001-Hystrix
+    prefer-ip-address: true
+info:
+   app.name: SpringCloud Study
+   domain: http://liwenxiang.top
+   module: provider01
+   version: 1.0.0

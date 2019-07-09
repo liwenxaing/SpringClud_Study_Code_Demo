@@ -1,0 +1,6 @@
+com\micro\entity\Product.class
+com\micro\service\DeptClientServiceFallbackFactory$1.class
+com\micro\service\DeptClientService.class
+com\micro\service\DeptClientServiceFallbackFactory.class
+com\micro\service\ProductClientService.class
+com\micro\entity\Dept.class
